@@ -82,7 +82,7 @@ export default function Home() {
 
     return (
         <>
-        <audio src={intro} ref={audioRef} />
+        <audio src={intro} ref={audioRef} autoPlay/>
             <main onClick={handleClick}>
                 <h1 className="text-center my-4 fw-bold text-light">
                     Assist Blind
