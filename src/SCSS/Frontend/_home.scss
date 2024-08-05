@@ -1,0 +1,55 @@
+// import img from '../../Assets/bg.jpg'
+.camera {
+    margin: auto;
+    border-radius: 12px;
+    height: 300px;
+}
+
+@media screen and (max-width:351px) {
+    .camera {
+        height: 245px;
+    }
+}
+
+body{
+    height: 450px;
+    background-image: url(../../Assets/bg.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: 10000px;
+}
+
+h1 {
+    font-size: 72px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 10%, rgba(252,70,107,1) 47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.txt{
+//   font-family:   New Century Schoolbook, TeX Gyre Schola, serif;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
+// Image in map fun
+
+.map_img{
+    height: 300px;
+    border-radius: 10px;
+    width: 400px;
+    display: block;
+}
+
+
+// Image in map fun
+
+p#output {
+    color: white;
+    font-size: 25px;
+    margin: 10px 5px;
+}
