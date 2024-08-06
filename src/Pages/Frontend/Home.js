@@ -86,7 +86,7 @@ export default function Home() {
             <main onClick={handleClick}>
                 <h1 className="text-center my-4 fw-bold text-light">
                     Assist Blind
-                </h1>
+                </h1> 
                 <h3 className='text-light text-center txt'>"Translating Sight into Words"</h3>
                 <div className="container my-5">
                     <div className="row">
